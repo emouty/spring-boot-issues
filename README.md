@@ -2,6 +2,14 @@
 
 This project is to reproduce issues related to the spring boot project.
 
+## Building the Application
+
+To build the application, you can use the following command:
+
+```bash
+mvn clean verify
+```
+
 ## Running the Application
 
 In Spring Boot 3.4.x and earlier we could do :
