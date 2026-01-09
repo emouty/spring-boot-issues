@@ -1,4 +1,4 @@
-package example;
+package com.example;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
@@ -8,6 +8,6 @@ public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
         // Register JAX-RS resources
-        register(example.HelloResource.class);
+        register(HelloResource.class);
     }
 }
